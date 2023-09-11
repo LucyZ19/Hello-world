@@ -6,3 +6,7 @@ public class Main
     System.out.print ("Nice to meet you.");
   }
 }
+
+// int - which store integers (numbers like 3, -76, 20393)
+// double - which store floating point numbers (decimal numbers like 6.3 -0.9, and 60293.93032)
+// boolean - which store Boolean values (either true or false).
