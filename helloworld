@@ -7,7 +7,7 @@ public class Main
     
     final int Num1 = 1;    // int - which store integers (numbers like 3, -76, 20393)                                      //final can be used in front of a variable declaration to make it a constant that cannot be changed
     double num2 = 2.25;       // double - which store floating point numbers (decimal numbers like 6.3 -0.9, and 60293.93032)
-    boolean real = true;   // boolean - which store Boolean values (either true or false).
+    boolean real = true;   // boolean - which store either true or false
     
     System.out.println (Num1);
     System.out.println (num2);
