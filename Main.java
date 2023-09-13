@@ -17,5 +17,10 @@ public class Main
     num1 = (num2 + num) * num;
     System.out.println ("is " + num1 + " > " + num2 + "?");
     System.out.println (real);
+    
+    num2 = ((num2 + num1) * num);
+    num1 = (num1 * num) + num;
+    System.out.println ("is " + num2 + " > " + num1 + "?");
+    System.out.println (real);
   }
 }
