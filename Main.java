@@ -43,4 +43,16 @@ public class Main
     System.out.println("28.0/25.0 truncated: " + (int) number);
 
   }
+  Calculator c = new Calculator();
+  c.sound();
+}
+
+public class Calculator
+{
+    private double num;
+    private int numKeys;
+    public void sound()
+    {
+        System.out.println ("clack clack clack");
+    }
 }
