@@ -47,12 +47,5 @@ public class Main
   c.sound();
 }
 
-public class Calculator
-{
-    private double num;
-    private int numKeys;
-    public void sound()
-    {
-        System.out.println ("clack clack clack");
-    }
-}
+
+
