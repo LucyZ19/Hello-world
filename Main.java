@@ -42,10 +42,11 @@ public class Main
     System.out.println("28.0/25.0 = " + number);
     System.out.println("28.0/25.0 truncated: " + (int) number);
 
+
+    Calculator c = new Calculator();
+    System.out.println (c.newKeys());
+
   }
-  Calculator c = new Calculator();
-  c.sound();
+  
 }
-
-
 
