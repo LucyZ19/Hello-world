@@ -42,8 +42,11 @@ public class Main
     System.out.println("28.0/25.0 = " + number);
     System.out.println("28.0/25.0 truncated: " + (int) number);
 
-
+    
     Calculator c = new Calculator();
+    Scanner scan = new Scanner(double);
+    System.out.println ("What number from your calculator do you want to import?");
+    c.
     System.out.println (c.newKeys());
 
   }
