@@ -1,27 +1,28 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Game
 {
   public static void main (String[] args)
   {
     System.out.println("Would you like to play a game? yes or no?");
-    Scanner scan = new Scanner(System.in);
-    String answer = scan.nextLine();
-    boolean vaild = true;
-    //do {
+    Question start = new Question();
+    System.out.println(start);
     
-    if (answer.equals ("yes")) 
-    {
-      return vaild = true;
-    } 
-    else if (menu.equals("no"))
-    {
-      return valid = false;
-    }
-    //while(!vaild);
+   // Scanner scan = new Scanner(System.in);
+   // String answer = scan.nextLine();
     
     
-    scan.close();
+   // if (answer.equals("yes")) 
+   // {
+   //   System.out.println (answer.equals("yes"));
+   // } 
+   // else if (answer.equals("no"))
+   // {
+   //   System.out.println (answer.equals("yes"));
+  //  }
+    
+    
+    //scan.close();
    
   }
   }
