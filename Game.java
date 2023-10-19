@@ -4,8 +4,9 @@ public class Game
 {
   public static void main (String[] args)
   {
-    String str = new String("Would you like to play a game?");
-    System.out.println(str + " yes or no?");
+    String str = new String("Would you like to play a game? yes or no?");
+    System.out.println(str.substring(0,31));
+    System.out.println(str.substring(31));
     Scanner scan = new Scanner(System.in);
     String answer = scan.nextLine();
     
