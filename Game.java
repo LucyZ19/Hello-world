@@ -9,7 +9,7 @@ public class Game
     System.out.println(str.substring(31));
     Scanner scan = new Scanner(System.in);
     String answer = scan.nextLine();
-    
+    String game = "lets play a game of";
     
     if (answer.equals("yes")) 
     {
@@ -20,7 +20,7 @@ public class Game
       
       if (easy.equals("easy")) 
       {
-        System.out.println(easy.equals("easy"));
+        System.out.println(game);
       }
       else if (easy.equals("hard"))
       {
