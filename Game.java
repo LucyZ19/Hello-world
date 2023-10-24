@@ -13,8 +13,8 @@ public class Game
     
     if (answer.equals("yes")) 
     {
+      
       Start begin = new Start();
-      begin.toString("Would you like to play:");
       System.out.println (begin.toString("Would you like to play: ") + "?");
       String easy = scan.nextLine();
       
@@ -29,13 +29,13 @@ public class Game
       
       
     } 
-      else if (answer.equals("no"))
-      {
-        System.out.println (answer.equals("yes"));
-      }
-      
-      
-      //scan.close();
-      
+    else if (answer.equals("no"))
+    {
+      System.out.println ("ok, come back when you want to play");
     }
+    
+    
+    //scan.close();
+    
   }
+}
