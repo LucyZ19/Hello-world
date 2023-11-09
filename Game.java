@@ -10,6 +10,8 @@ public class Game
     Scanner scan = new Scanner(System.in);
     String answer = scan.nextLine();
     String game = "lets play a game of";
+    Rules rule = new Rules();
+    Easyhard mode = new Easyhard();
     
     if (answer.equals("yes")) 
     {
@@ -20,7 +22,9 @@ public class Game
       
       if (easy.equals("easy")) 
       {
-        System.out.println(game);
+        System.out.println(game + " gardening");
+        System.out.println("the rules are simple" + "\n" + rule.rules());
+        System.out.println(mode.g(easy));
       }
       else if (easy.equals("hard"))
       {
