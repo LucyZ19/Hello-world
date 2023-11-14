@@ -5,11 +5,11 @@ public class Easyhard
   {
     if (e.equals("easy"))
     {
-      return "easy";
+      return "each flower cost $10";
     }
     else
     {
-      return "hard";
+      return "each flower cost $35";
     }
   }
 }
