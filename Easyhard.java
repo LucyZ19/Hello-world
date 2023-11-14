@@ -5,7 +5,8 @@ public class Easyhard
   {
     if (e.equals("easy"))
     {
-      return "each flower cost $10";
+      int n = (int) (Math.random()*13);
+      return "each flower cost $10 " + n;
     }
     else
     {

@@ -33,7 +33,6 @@ public class Game
         System.out.println(mode.g(easy));
       }
       
-      
     } 
     else if (answer.equals("no"))
     {
