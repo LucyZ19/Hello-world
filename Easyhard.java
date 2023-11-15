@@ -1,16 +1,17 @@
 public class Easyhard
 {
   public String e;
-  public String g(String e)
+  private int n;
+  public int g(String e)
   {
     if (e.equals("easy"))
     {
       int n = (int) (Math.random()*13);
-      return "each flower cost $10 " + n;
+      return n;
     }
     else
     {
-      return "each flower cost $35";
+      return n + 1;
     }
   }
 }
