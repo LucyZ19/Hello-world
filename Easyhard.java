@@ -1,7 +1,5 @@
 public class Easyhard
 {
-  public String e;
-  private int n;
   public int g(String e)
   {
     if (e.equals("easy"))
@@ -11,6 +9,7 @@ public class Easyhard
     }
     else
     {
+      int n = (int) (Math.random()*13) + 12;
       return n + 1;
     }
   }

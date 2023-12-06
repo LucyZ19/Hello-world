@@ -1,9 +1,5 @@
 public class Rules
 {
-  private int f;
-  private double m;
-  //private String e;
-  private String h = " ";
   public String rules(int f, double m, boolean e)
   {
     String s = "you have a flower bed that can hold " + f + " flowers" + "\n" + "you start with $" + m;
