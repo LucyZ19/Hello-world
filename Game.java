@@ -23,7 +23,7 @@ public class Game
       {
         System.out.println(game + " gardening");
         System.out.println("the rules are simple" + "\n" + rule.rules(10, 50, true));
-        System.out.println(mode.g(easy));
+        Start.beads("easy");
       }
       else if (easy.equals("hard"))
       {
